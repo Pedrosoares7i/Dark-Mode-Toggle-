@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Acessibilidade — Dark Mode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&family=DM+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <span class="logo">🖥️ TechInfo</span>
+        <button id="btnTema" onclick="alternarTema()">🌙 Modo escuro</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <span class="hero-badge">✦ Portal de tecnologia</span>
+            <h1>Bem-vindo ao TechInfo</h1>
+            <p>Seu portal de notícias e dicas sobre tecnologia e programação.</p>
+            <button class="btn-destaque">Ver mais notícias</button>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <div class="card-icon">🌐</div>
+                <h2>O que é uma API?</h2>
+                <p>APIs permitem que sistemas se comuniquem. Elas são usadas em apps, sites e serviços do dia a dia.</p>
+                <a href="api.html">Ler mais →</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎨</div>
+                <h2>CSS moderno</h2>
+                <p>Variáveis CSS, Grid e Flexbox revolucionaram a forma de estilizar páginas web.</p>
+                <a href="#">Ler mais →</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">⚡</div>
+                <h2>JavaScript assíncrono</h2>
+                <p>Com async/await ficou muito mais simples lidar com operações que levam tempo para responder.</p>
+                <a href="#">Ler mais →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 TechInfo — Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
